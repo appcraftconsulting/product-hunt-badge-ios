@@ -1,10 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/8e6a0fec-bf99-4371-9bfd-a29702952058" width="600">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/f8973d14-a67b-4cc9-ad7e-f648edeae5ba" width="600">
-  <img alt="Product Hunt Badge" src="https://github.com/user-attachments/assets/f8973d14-a67b-4cc9-ad7e-f648edeae5ba" width="600">
-</picture>
+<p align="center">
+  <img width="251" alt="IMG_5219" src="https://github.com/user-attachments/assets/357da7ef-89d8-4bd5-b494-29e5d6bebd44">
+  <img width="251" alt="IMG_5220" src="https://github.com/user-attachments/assets/873d3016-0817-4584-8eda-cc93aadcbd7a">
+</p>
 
 ## Main Features
+
 - **Dark & Light mode** support
 - Synced with **Product Hunt API**
 - Cached in **UserDefaults**
