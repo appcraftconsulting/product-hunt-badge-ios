@@ -1,4 +1,4 @@
-![simulator_screenshot_73504DD8-6CBB-479B-9F75-33B5E1325DDD](https://github.com/user-attachments/assets/acd609e4-298e-42cc-8f0b-5f4af26fb382)
+![simulator_screenshot_73504DD8-6CBB-479B-9F75-33B5E1325DDD](https://github.com/user-attachments/assets/acd609e4-298e-42cc-8f0b-5f4af26fb382 | width=100)
 
 ## Authentication
 
