@@ -64,19 +64,16 @@ struct SideProjectApp: App {
 
 ## Usage
 
+You can either identify your Product Hunt post by its slug or id:
 ```swift
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            ProductHuntBadge(slug: "stepup")
-                .environment(\.colorScheme, .light)
+// Product Hunt Badge using slug (String)
+ProductHuntBadge(slug: "stepup")
+// Product Hunt Badge using id (Int)
+ProductHuntBadge(id: 471947)
+```
 
-            ProductHuntBadge(id: 471947)
-                .environment(\.colorScheme, .dark)
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(.embedBackground)
-        .ignoresSafeArea()
-    }
-}
+Also, keep in mind you can override system appearance using `colorScheme` environment value:
+```
+ProductHuntBadge(slug: "stepup")
+    .environment(\.colorScheme, .dark)
 ```
