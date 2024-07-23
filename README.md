@@ -1,5 +1,12 @@
 <img src="https://github.com/user-attachments/assets/acd609e4-298e-42cc-8f0b-5f4af26fb382" width="48">
 
+## References
+Here are some iOS and macOS apps using Product Hunt Badge, give it a try!
+
+[<img src="https://github.com/user-attachments/assets/c263ea4e-2403-4e2f-9f7b-ab721bfa4824" width="64" height="64">](https://apps.apple.com/app/id6502121777)
+
+[Add your app](https://github.com/sponsors/appcraftconsulting)
+
 ## Authentication
 
 In order to refresh upvotes count, the badge component needs access to Product Hunt API.
