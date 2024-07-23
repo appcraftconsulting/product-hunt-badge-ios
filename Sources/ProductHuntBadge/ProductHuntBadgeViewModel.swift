@@ -2,7 +2,7 @@ import Foundation
 import OSLog
 
 internal final class ProductHuntBadgeViewModel: ObservableObject {
-    @Published internal var votesCount: Int = 0
+    @Published internal var votesCount: Int?
     
     private let session: URLSession = .shared
     private var task: Task<Void, Error>?

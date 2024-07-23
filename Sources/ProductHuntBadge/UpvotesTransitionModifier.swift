@@ -1,10 +1,10 @@
 import SwiftUI
 
 internal struct UpvotesTransitionModifier: ViewModifier {
-    internal let votesCount: Int
+    internal let upvotes: Int
     
     private var value: Double {
-        Double(votesCount)
+        Double(upvotes)
     }
     
     func body(content: Content) -> some View {
