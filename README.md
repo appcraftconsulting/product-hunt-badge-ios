@@ -1,4 +1,4 @@
-<img src="[https://github.com/favicon.ico](https://github.com/user-attachments/assets/acd609e4-298e-42cc-8f0b-5f4af26fb382)" width="48">
+<img src="https://github.com/user-attachments/assets/acd609e4-298e-42cc-8f0b-5f4af26fb382" width="48">
 
 ## Authentication
 
