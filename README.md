@@ -1,19 +1,17 @@
 <img src="https://github.com/user-attachments/assets/acd609e4-298e-42cc-8f0b-5f4af26fb382" width="48">
 
-## References
+## References 📖
 Here are some iOS and macOS apps using Product Hunt Badge, give it a try!
 
 [<img src="https://github.com/user-attachments/assets/c263ea4e-2403-4e2f-9f7b-ab721bfa4824" width="64" height="64">](https://apps.apple.com/app/id6502121777)
 
-[Add your app](https://github.com/sponsors/appcraftconsulting)
+[Add your app](https://github.com/sponsors/appcraftconsulting/sponsorships?tier_id=417653)
 
-## Authentication
+## Authentication 🔐
 
-In order to refresh upvotes count, the badge component needs access to Product Hunt API.
-Since the API needs authentication, providing either a developer token or application credentials is mandatory to make the badge work. 
+In order to refresh upvotes count, you need to provide authentication information so the badge can communicate with Product Hunt API.
 
-> [!NOTE]
-> You can generate tokens by signing in to Product Hunt, then going to [API Dashboard](https://www.producthunt.com/v2/oauth/applications).
+You can generate tokens by signing in to Product Hunt, then going to [API Dashboard](https://www.producthunt.com/v2/oauth/applications).
 
 Application or Developer Token? Here is what Product Hunt API Documentation mentions:
 > But… i just wanted to run a simple script?
