@@ -1,6 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/8e6a0fec-bf99-4371-9bfd-a29702952058">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/f8973d14-a67b-4cc9-ad7e-f648edeae5ba">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/8e6a0fec-bf99-4371-9bfd-a29702952058" width="600">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/f8973d14-a67b-4cc9-ad7e-f648edeae5ba" width="600">
+  <img alt="Product Hunt Badge" src="https://github.com/user-attachments/assets/f8973d14-a67b-4cc9-ad7e-f648edeae5ba" width="600">
 </picture>
 
 ## Main Features
