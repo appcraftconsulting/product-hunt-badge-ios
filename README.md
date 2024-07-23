@@ -1,13 +1,21 @@
 <img src="https://github.com/user-attachments/assets/acd609e4-298e-42cc-8f0b-5f4af26fb382" width="48">
 
-## References 📖
+## Main Features
+- **Dark & Light mode** support
+- Synced with **Product Hunt API**
+- Cached in **UserDefaults**
+- Refreshed when app becomes active
+
+## References
 Here are some iOS and macOS apps using Product Hunt Badge, give it a try!
 
 [<img src="https://github.com/user-attachments/assets/c263ea4e-2403-4e2f-9f7b-ab721bfa4824" width="64" height="64">](https://apps.apple.com/app/id6502121777)
 
 [Add your app](https://github.com/sponsors/appcraftconsulting/sponsorships?tier_id=417653)
 
-## Authentication 🔐
+# Documentation
+
+## Authentication
 
 In order to refresh upvotes count, you need to provide authentication information so the badge can communicate with Product Hunt API.
 
@@ -18,7 +26,7 @@ Application or Developer Token? Here is what Product Hunt API Documentation ment
 > - The oauth2 flow is a bit of a overkill if you just want to run a few scripts
 > - We provide a developer_token (does not expire, linked to your account) in the API dashboard
 
-### Developer Token
+#### Developer Token
 ```swift
 @main
 struct SideProjectApp: App {
@@ -31,7 +39,7 @@ struct SideProjectApp: App {
 }
 ```
 
-### Application Credentials
+#### Application Credentials
 ```swift
 @main
 struct SideProjectApp: App {
@@ -39,8 +47,8 @@ struct SideProjectApp: App {
         WindowGroup {
             ContentView()
                 .productHuntCredentials(.application(
-                    clientId: "{API_KEY}",
-                    clientSecret: "{API_SECRET}"
+                    clientId: "API_KEY",
+                    clientSecret: "API_SECRET"
                 ))
         }
     }
@@ -50,7 +58,7 @@ struct SideProjectApp: App {
 > [!TIP]
 > Inject your Product Hunt credentials at your root view so it can be accessible wherever you embed the badge in your app.
 
-## Badge
+## Usage
 
 ```swift
 struct ContentView: View {
