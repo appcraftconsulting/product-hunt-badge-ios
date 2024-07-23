@@ -66,14 +66,14 @@ struct SideProjectApp: App {
 
 You can either identify your Product Hunt post by its slug or id:
 ```swift
-// Product Hunt Badge using slug (String)
+// Product Hunt Badge using its slug (String)
 ProductHuntBadge(slug: "stepup")
-// Product Hunt Badge using id (Int)
+// Product Hunt Badge using its id (Int)
 ProductHuntBadge(id: 471947)
 ```
 
 Also, keep in mind you can override system appearance using `colorScheme` environment value:
-```
+```swift
 ProductHuntBadge(slug: "stepup")
     .environment(\.colorScheme, .dark)
 ```
